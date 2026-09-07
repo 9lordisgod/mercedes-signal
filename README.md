@@ -1,4 +1,4 @@
-# Mercedes Signal
+# Cypherpunk
 
 Telegram-first Polymarket research desk. Free tape is public. Paid desk unlocks the full feed and backtests with **USDC on Solana**.
 
@@ -6,7 +6,7 @@ This is research, not auto-trading, and not financial advice.
 
 **Founder:** [Willie / @williemdoe](https://x.com/williemdoe)
 
-**Bot:** [t.me/Mercedes_Signal_bot](https://t.me/Mercedes_Signal_bot)
+**Bot:** [t.me/Mercedes_Signal_bot](https://t.me/Mercedes_Signal_bot?start=beta)
 
 **How it works:** [docs/HOW_IT_WORKS.md](docs/HOW_IT_WORKS.md)
 
@@ -19,9 +19,9 @@ This is research, not auto-trading, and not financial advice.
 
 ## How to start
 
-Talk to the bot: https://t.me/Mercedes_Signal_bot
+[Join the waitlist](https://t.me/Mercedes_Signal_bot?start=beta)
 
-`/start` · `/signals` · `/paid` · `/subscribe` · `/status`
+Access is reviewed by hand. If you're in, the bot messages you.
 
 ## Founder
 

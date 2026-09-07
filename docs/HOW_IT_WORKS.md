@@ -1,6 +1,6 @@
-# How Mercedes Signal predictions work
+# How Cypherpunk predictions work
 
-Mercedes Signal is a **research tape**, not an auto-trader. A Polymarket YES token is already a probability. We watch how that probability moves and publish a structured call: market, side, confidence, and a short rationale.
+Cypherpunk is a **research tape**, not an auto-trader. A Polymarket YES token is already a probability. We watch how that probability moves and publish a structured call: market, side, confidence, and a short rationale.
 
 ## Why it works
 
