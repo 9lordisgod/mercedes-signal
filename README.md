@@ -17,7 +17,7 @@ This is research, not auto-trading, and not financial advice.
 
 ## How to start
 
-[Join the waitlist](https://t.me/Mercedes_Signal_bot?start=beta)
+[Join the waitlist](https://t.me/Cypherpunk_Waitlist_bot)
 
 Access is reviewed by hand. If you're in, the bot messages you.
 
