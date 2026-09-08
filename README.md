@@ -6,8 +6,6 @@ This is research, not auto-trading, and not financial advice.
 
 **Founder:** [Willie / @williemdoe](https://x.com/williemdoe)
 
-**Bot:** [t.me/Mercedes_Signal_bot](https://t.me/Mercedes_Signal_bot?start=beta)
-
 **How it works:** [docs/HOW_IT_WORKS.md](docs/HOW_IT_WORKS.md)
 
 ## What users get
