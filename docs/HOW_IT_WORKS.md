@@ -15,11 +15,16 @@ Rules stay silent when the tape is unclear. A tiny wiggle is not treated as cert
 ```mermaid
 flowchart LR
   A[Open Polymarket markets] --> B[YES implied-prob tape]
-  B --> C[Research engines]
-  C --> D[Structured signal]
-  D --> E[Free tape]
-  D --> F[Paid desk]
-  F --> G[Backtest score]
+  B --> F[tapeFeatures]
+  F --> M[momentum-v1]
+  F --> R[mean-revert-v1]
+  F --> E[event-drift-v1]
+  M --> D[Signal]
+  R --> D
+  E --> D
+  D --> Free[Free tape]
+  D --> Paid[Paid desk]
+  Paid --> G[1-share backtest]
 ```
 
 ## Four sources, one call
