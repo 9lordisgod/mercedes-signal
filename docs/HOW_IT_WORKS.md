@@ -2,6 +2,8 @@
 
 Cypherpunk is a **research tape**, not an auto-trader. A Polymarket YES token is already a probability. We watch how that probability moves and publish a structured call: market, side, confidence, and a short rationale.
 
+Kid-level picture (diagrams + formulas, no private ops): [MODEL.md](MODEL.md)
+
 ## Why it works
 
 1. **Implied probability** — a YES token at 64¢ means the tape is pricing a 64% chance. That number is the input.

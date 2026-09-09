@@ -4,13 +4,28 @@ Telegram-first Polymarket research desk. Free tape is public. Paid desk unlocks 
 
 This is research, not auto-trading, and not financial advice.
 
+| [The model](docs/MODEL.md) | [How it works](docs/HOW_IT_WORKS.md) | [License (MIT)](LICENSE) |
+| --- | --- | --- |
+
 **Site:** [cypherpunk-code.com](https://www.cypherpunk-code.com/)
 · **Waitlist:** [@Cypherpunk_Waitlist_bot](https://t.me/Cypherpunk_Waitlist_bot)
-· **Methodology:** [docs/HOW_IT_WORKS.md](docs/HOW_IT_WORKS.md)
+
+## The model
+
+A YES token is already a chance, like a weather report. We watch whether that number walked up, walked down, or barely moved. Three toy rules may speak. The AI desk only narrates the result. It does not invent a second forecast.
+
+$$
+\Delta = p_{\text{last}} - p_{\text{start}}
+$$
+
+- Ball still rolling → lean with the walk
+- Rubber band too stretched from 50¢ → lean the other way
+- Early tape and late tape blow the same way → lean with that wind
+- Tiny wobble → say nothing
+
+Diagrams, the four numbers, and the kid-level formulas: **[docs/MODEL.md](docs/MODEL.md)**
 
 ## Time machine
-
-A Polymarket YES token is already a probability. We reduce the series to a few numbers, then three independent rules either fire a call or stay silent.
 
 ```mermaid
 flowchart LR
@@ -27,7 +42,7 @@ start · last · range · momentum"]
   paid --> bt[1-share backtest]
 ```
 
-A tiny wiggle is not a call. Rules return `null` unless the move clears a threshold.
+A tiny wiggle is not a call. Rules return `null` unless the move is clear.
 
 ## One object
 
@@ -74,6 +89,10 @@ flowchart TB
 ## How to start
 
 [Join the waitlist](https://t.me/Cypherpunk_Waitlist_bot). Access is reviewed by hand. If you're in, the bot messages you.
+
+## License
+
+[MIT](LICENSE). Methodology docs are part of the same grant: read them, fork the ideas, do not treat them as a trading bot.
 
 ## Founder
 
