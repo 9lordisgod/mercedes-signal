@@ -45,9 +45,9 @@ flowchart TB
   walk[The price walk] --> ball[Keep rolling]
   walk --> rubber[Snap back]
   walk --> wind[Same wind still blowing]
-  ball --> call[YES / NO / silent]
-  rubber --> call
-  wind --> call
+  ball --> verdict[YES / NO / silent]
+  rubber --> verdict
+  wind --> verdict
 ```
 
 ### 1. Keep rolling
