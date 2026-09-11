@@ -74,7 +74,7 @@ Free fields are public. Paid fields never leave the server until membership is a
 
 ## Desk
 
-Strangers apply on the waitlist bot. The operator admits by hand. The desk is Telegram chat, not a web tab.
+Strangers apply on the waitlist bot. The operator admits by hand. Testers chat in Telegram. Paid members can also open a **Time Machine** chat box in the desk bot and ask in plain words.
 
 ```mermaid
 flowchart TB
@@ -82,8 +82,7 @@ flowchart TB
   op -->|admit / reject| user[Telegram user]
   user --> chat["Desk bot
 /ask · /signals"]
-  chat -->|USDC on Solana| engines["Paid engines
-/paid · /backtest"]
+  chat -->|membership| tm[Time Machine chat]
 ```
 
 ## How to start

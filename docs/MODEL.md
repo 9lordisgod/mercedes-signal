@@ -101,14 +101,13 @@ $$
 
 ## What the AI is
 
-The Telegram desk is a talker, not a second secret model.
-
-It reads the time-machine JSON (the walk, the three rules, the call) and explains it in words. It is not allowed to make up a new forecast from vibes.
+The chat box is a talker, not a second secret model. It reads the walk and the three toy rules, then explains in words. Paid members can ask freely. It should not invent a new number from vibes.
 
 ```mermaid
 flowchart LR
-  json[Time-machine JSON] --> desk[Desk chat]
-  desk --> words[Plain-language note]
+  walk[The price walk] --> rules[Three toy rules]
+  rules --> chat[Time Machine chat]
+  chat --> words[A full written answer]
 ```
 
 ## What a call looks like

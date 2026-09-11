@@ -34,7 +34,7 @@ flowchart LR
 | Source | What it is |
 | --- | --- |
 | Model | Rules over the YES-price tape |
-| AI | Desk research note |
+| AI | A written note from the tape. Paid Time Machine chat can explain it in full. |
 | Desk | Human-curated call |
 | Community | User idea, published only after review |
 
